@@ -20,8 +20,14 @@
   color: #ff5400;
 }
 
-button{
+.primary-btn{
   background-color: #ff5400;
+  border: none;
+  color: white;
+  font-weight: bold;
+  border-radius: 5px;
+  font-size: 1rem;
+  padding: 10px 10px;
 }
 
 /* nav section style starts here */
@@ -116,7 +122,7 @@ color: #5a5a5d;
   font-weight: 300;
 }
 
-.banner-form input, select, button {
+.banner-form input, select, .banner-btn {
   border: none;
   width: 150px;
   padding: 10px 10px;
@@ -136,4 +142,41 @@ form.banner-form {
   padding: 15px;
   border-radius: 5px;
   margin-top: 20px;
+}
+
+
+/* tour section style starts here */
+
+section.tour-container {
+  display: flex;
+  margin-top: 100px;
+  gap: 50px;
+}
+
+.tour-content h1 {
+  font-size: 2rem;
+}
+
+.tour-content * {
+  margin-bottom: 21px;
+}
+
+.tour-content p {
+  font-size: 14px;
+}
+
+.tour-content p i {
+  margin-right: 5px;
+}
+
+.tour-img img {
+  width: 100%;
+}
+
+.tour-content {
+  width: 50%;
+}
+
+.tour-img {
+  width: 50%;
 }

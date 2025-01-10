@@ -8,6 +8,9 @@
     .container{
       width: 90%;
     }
+
+/* nav section responsive */
+
     .checkbtn {
       display: block;
       order: 1;
@@ -57,7 +60,7 @@
       width: 40px;
     }
 
-/* banner responsive */
+/* banner section responsive */
 
     .banner-form{
       flex-direction: column;
@@ -71,9 +74,22 @@
       font-size: 2rem;
     }
 
-    .banner-form input, select, button{
+    .banner-form input, select, .banner-btn{
       width: 100%;
     }
 
+/* tour section responsive */
+
+    .tour-container{
+      flex-direction: column;
+    }
+
+    .tour-content{
+      width: 100%;
+    }
+
+    .tour-img{
+      width: 100%;
+    }
 
   }
