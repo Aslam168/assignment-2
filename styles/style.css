@@ -14,6 +14,7 @@
 
 .primary-text-clr{
   color: #5a5a5d;
+  font-size: 14px;
 }
 
 .common-clr{
@@ -179,4 +180,119 @@ section.tour-container {
 
 .tour-img {
   width: 50%;
+}
+
+/* destination section style starts here */
+
+.destination-img {
+  display: grid;
+  grid-template-columns: repeat(12,1fr);
+  grid-template-rows: repeat(3, 1fr);
+  gap: 20px;
+}
+
+.destination-img div img {
+  width: 100%;
+  height: 90%;
+  object-fit: cover;
+  border-radius: 15px;
+}
+
+.img-item-1 {
+  grid-column: span 6;
+  position: relative;
+}
+
+.img-item-2 {
+  grid-column: span 6;
+  position: relative;
+}
+
+.img-item-3 {
+  grid-column: span 4;
+  position: relative;
+}
+
+.img-item-4 {
+  grid-column: span 5;
+  position: relative;
+}
+
+.img-item-5 {
+  grid-column: span 3;
+  position: relative;
+}
+
+.img-item-6 {
+  grid-column: span 5;
+  position: relative;
+}
+
+.img-item-7 {
+  grid-column: span 7;
+  position: relative;
+}
+
+.destination-content {
+  width: 60%;
+  margin: 0 auto;
+  text-align: center;
+  margin-top: 100px;
+  margin-bottom: 40px;
+}
+
+.destination-content h1 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+.destination-img > div {
+  margin-bottom: -25px;
+}
+
+.destination-img div h2{
+  color: white;
+  font-weight: 600;
+}
+
+.country-name-1 {
+  position: absolute;
+  left: 39%;
+  top: 40%;
+}
+
+.country-name-2 {
+  position: absolute;
+  left: 38%;
+  top: 42%;
+}
+
+.country-name-3 {
+  position: absolute;
+  left: 35%;
+  top: 39%;
+}
+
+.country-name-4 {
+  position: absolute;
+  left: 27%;
+  top: 40%;
+}
+
+.country-name-5 {
+  position: absolute;
+  left: 28%;
+  top: 40%;
+}
+
+.country-name-6 {
+  position: absolute;
+  left: 33%;
+  top: 40%;
+}
+
+.country-name-7 {
+  position: absolute;
+  left: 39%;
+  top: 38%;
 }
