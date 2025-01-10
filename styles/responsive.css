@@ -6,7 +6,7 @@
 
 @media (max-width: 576px) {
     .container{
-      width: 95%;
+      width: 90%;
     }
     .checkbtn {
       display: block;
@@ -56,5 +56,24 @@
     label.logo img {
       width: 40px;
     }
+
+/* banner responsive */
+
+    .banner-form{
+      flex-direction: column;
+    }
+
+    .banner-content{
+      padding: 10% 8%;
+    }
+
+    .banner-content h1{
+      font-size: 2rem;
+    }
+
+    .banner-form input, select, button{
+      width: 100%;
+    }
+
 
   }

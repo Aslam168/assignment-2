@@ -8,7 +8,7 @@
 }
 
 .container{
-  width: 85%;
+  width: 80%;
   margin: 0 auto;
 }
 
@@ -31,7 +31,7 @@ nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 40px 20px;
+  padding: 40px 0px;
 }
 
 .logo {
@@ -86,5 +86,54 @@ color: #5a5a5d;
 /* banner section style starts here */
 
 .banner{
-  background-image: url("../Images/Group\ 13\ \(1\)\ \(1\).png");
+  background-image:linear-gradient(to bottom,
+  rgba(0, 0, 0, 0.75),
+  rgba(255, 255, 255, 0)), url("../Images/Group\ 13\ \(1\)\ \(1\).png");
+  border-radius: 15px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.banner-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 10%15%;
+  text-align: center;
+  color: white;
+  gap: 25px;
+}
+
+.banner-content h1 {
+  font-size: 3.5rem;
+  font-weight: 600;
+  color: white;
+}
+
+.banner-content p {
+  font-weight: 300;
+}
+
+.banner-form input, select, button {
+  border: none;
+  width: 150px;
+  padding: 10px 10px;
+  font-size: 1rem;
+  border-radius: 5px;
+  outline: none;
+}
+
+form.banner-form button{
+  color: white;
+}
+
+form.banner-form {
+  display: flex;
+  gap: 25px;
+  background: #ffffff54;
+  padding: 15px;
+  border-radius: 5px;
+  margin-top: 20px;
 }
