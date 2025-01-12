@@ -296,3 +296,74 @@ section.tour-container {
   left: 39%;
   top: 38%;
 }
+
+
+/* choose section style starts here */
+
+.choose-container {
+    margin-top: 100px;
+}
+
+.choose-container h1 {
+    font-size: 2rem;
+}
+
+.choose-container > p {
+    width: 50%;
+    margin: auto;
+    margin-top: 25px;
+}
+
+.choose-first {
+    display: flex;
+    gap: 30px;
+    margin-top: 40px;
+}
+
+.hotel-content {
+  border: 1px solid#fdf2e4;
+  background: #fefbf7;
+  border-radius: 15px;
+}
+
+.choose-first div {
+    padding: 30px;
+}
+
+.choose-first img {
+    margin-bottom: 30px;
+}
+
+.choose-first h2 {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+}
+
+.location-content {
+    background: #f4fcfe;
+    border: 1px solid #d1f4fc;
+    border-radius: 15px;
+}
+
+.choose-first img {
+    width: 80px;
+}
+
+.choose-second {
+  background: #fdf6f6;
+  border: 1px solid #fadddd;
+  width: 50%;
+  margin: 0 auto;
+  border-radius: 15px;
+  padding: 30px;
+  margin-top: 35px;
+}
+
+.choose-second img {
+  width: 80px;
+}
+
+.choose-second h2 {
+  font-size: 1.2rem;
+  margin: 30px 0px 20px 0px;
+}

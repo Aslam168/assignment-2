@@ -156,5 +156,19 @@
     top: 37%;
   }
 
+  /* choose section responsive */
+
+  .choose-first {
+    flex-direction: column;
+  }
+
+  .choose-container > p {
+    width: 90%;
+  }
+
+  .choose-second{
+    width: 100%;
+  }
+
 
   }
