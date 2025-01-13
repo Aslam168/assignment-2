@@ -242,12 +242,27 @@
     flex-direction: column;
   }
 
-  .newsletter-form{
+  .newsletter-form {
     width: 100%;
   }
 
-  .newsletter-img{
+  .newsletter-img {
     width: 100%;
+  }
+
+  .save-up {
+    width: 180px;
+    transform: rotate(-20deg);
+    bottom: 40px;
+    right: 15px;
+  }
+
+  .save-up h2 {
+    font-size: 1.2rem;
+  }
+
+  .save-up p {
+    font-size: 1rem;
   }
 
 }
