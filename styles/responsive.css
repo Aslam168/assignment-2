@@ -218,7 +218,35 @@
     left: 25px;
   }
 
-  .discount p {
+  .discount>p {
+    width: 100%;
+  }
+
+  /* place section responsive */
+
+  .place {
+    flex-direction: column;
+  }
+
+  .place-content {
+    width: 100%;
+  }
+
+  .place-img {
+    width: 100%;
+  }
+
+  /* newletter section responsive */
+
+  .newsletter {
+    flex-direction: column;
+  }
+
+  .newsletter-form{
+    width: 100%;
+  }
+
+  .newsletter-img{
     width: 100%;
   }
 

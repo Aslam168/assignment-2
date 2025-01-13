@@ -28,7 +28,7 @@
   font-weight: bold;
   border-radius: 5px;
   font-size: 1rem;
-  padding: 10px 10px;
+  padding: 10px 20px;
 }
 
 /* nav section style starts here */
@@ -719,6 +719,7 @@ section.tour-container {
     display: flex;
     gap: 30px;
     margin-top: 40px;
+    justify-content: space-between;
 }
 
 .hotel-content {
@@ -855,4 +856,124 @@ section.tour-container {
 
 .discount-second-content > .discount-content {
   left: 50px;
+}
+
+.discount-btn {
+  margin: auto;
+  display: block;
+  margin-top: 30px;
+}
+
+.discount > p{
+  width: 50%;
+}
+
+/* place section style starts here */
+
+.place {
+  display: flex;
+  gap: 50px;
+  margin-top: 100px;
+  justify-content: space-between;
+}
+
+.place-content h1 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+.place-content p {
+  margin-bottom: 20px;
+}
+
+.place p i{
+  margin-right: 5px;
+}
+
+.place-img {
+  width: 50%;
+}
+
+.place-img iframe{
+  border-radius: 15px;
+}
+
+.place-content {
+  width: 50%;
+}
+
+/* newsletter section style starts here */
+
+.newsletter {
+  margin-top: 100px;
+  display: flex;
+  gap: 25px;
+}
+
+.newsletter input {
+  width: 100%;
+  display: flex;
+  border: none;
+  outline: none;
+  margin-top: 20px;
+  background: #efefefd1;
+  padding: 15px 25px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  font-size: 15px;
+}
+
+.newsletter-form {
+  border: 1px solid #ff5400;
+  border-radius: 15px;
+  padding: 40px;
+  width: 40%;
+}
+
+.newsletter-form h2 {
+  margin-bottom: 20px;
+}
+
+.newsletter-form p {
+  margin-bottom: 30px;
+  border-bottom: 1px solid #00000038;
+  padding-bottom: 20px;
+}
+
+.newsletter-img {
+  width: 60%;
+}
+
+.newsletter-img img {
+  width: 100%;
+}
+
+.newsletter-form form button {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.save-up {
+  background: #ff5400;
+  color: white;
+  width: 300px;
+  text-align: center;
+  padding: 15px 0px;
+  font-size: 1.2rem;
+  border-radius: 10px;
+}
+
+.save-up h2 {
+  font-weight: 600;
+}
+
+.newsletter-img {
+  position: relative;
+}
+
+.save-up {
+  position: absolute;
+  bottom: 80px;
+  right: 10px;
+  transform: rotate(-25deg);
 }
