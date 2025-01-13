@@ -367,3 +367,492 @@ section.tour-container {
   font-size: 1.2rem;
   margin: 30px 0px 20px 0px;
 }
+
+/* discount section style starts here */
+
+.discount-content {
+  position: absolute;
+  width: 50%;
+  background: #ffffffe8;
+  top: 50px;
+  right: 50px;
+  bottom: 50px;
+  border-radius: 15px;
+  padding: 40px;
+}
+
+.discount-first-content {
+  position: relative;
+  margin-top: 40px;
+}
+
+.discount-first-content img {
+  width: 100%;
+}
+
+.discount-content span {
+  margin-right: 25px;
+}
+
+.discount-content h2 {
+  margin-top: 20px;
+  font-weight: 600;
+}
+
+/* default style starts here */
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", serif;
+}
+
+.container{
+  width: 80%;
+  margin: 0 auto;
+}
+
+.primary-text-clr{
+  color: #5a5a5d;
+  font-size: 14px;
+}
+
+.common-clr{
+  color: #ff5400;
+}
+
+.primary-btn{
+  background-color: #ff5400;
+  border: none;
+  color: white;
+  font-weight: bold;
+  border-radius: 5px;
+  font-size: 1rem;
+  padding: 10px 10px;
+}
+
+/* nav section style starts here */
+
+nav {
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 40px 0px;
+}
+
+.logo {
+  font-size: 1.5rem;
+  display: flex;
+}
+
+ul {
+  display: flex;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+ul li {
+  margin-left: 2.5rem;
+}
+
+ul li a {
+  color: white;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.checkbtn {
+  font-size: 30px;
+  color: white;
+  cursor: pointer;
+  display: none;
+}
+
+#check {
+  display: none;
+}
+
+label.logo h1 {
+  margin-left: 15px;
+  font-size: 2rem;
+  font-weight: 600;
+  color: black;
+}
+
+nav ul li a{
+color: #5a5a5d;
+}
+
+.nav-menu-icon{
+  color: black;
+}
+
+
+/* banner section style starts here */
+
+.banner{
+  background-image:linear-gradient(to bottom,
+  rgba(0, 0, 0, 0.75),
+  rgba(255, 255, 255, 0)), url("../Images/Group\ 13\ \(1\)\ \(1\).png");
+  border-radius: 15px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.banner-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 10%15%;
+  text-align: center;
+  color: white;
+  gap: 25px;
+}
+
+.banner-content h1 {
+  font-size: 3.5rem;
+  font-weight: 600;
+  color: white;
+}
+
+.banner-content p {
+  font-weight: 300;
+}
+
+.banner-form input, select, .banner-btn {
+  border: none;
+  width: 150px;
+  padding: 10px 10px;
+  font-size: 1rem;
+  border-radius: 5px;
+  outline: none;
+}
+
+form.banner-form button{
+  color: white;
+}
+
+form.banner-form {
+  display: flex;
+  gap: 25px;
+  background: #ffffff54;
+  padding: 15px;
+  border-radius: 5px;
+  margin-top: 20px;
+}
+
+
+/* tour section style starts here */
+
+section.tour-container {
+  display: flex;
+  margin-top: 100px;
+  gap: 50px;
+}
+
+.tour-content h1 {
+  font-size: 2rem;
+}
+
+.tour-content * {
+  margin-bottom: 21px;
+}
+
+.tour-content p {
+  font-size: 14px;
+}
+
+.tour-content p i {
+  margin-right: 5px;
+}
+
+.tour-img img {
+  width: 100%;
+}
+
+.tour-content {
+  width: 50%;
+}
+
+.tour-img {
+  width: 50%;
+}
+
+/* destination section style starts here */
+
+.destination-img {
+  display: grid;
+  grid-template-columns: repeat(12,1fr);
+  grid-template-rows: repeat(3, 1fr);
+  gap: 20px;
+}
+
+.destination-img div img {
+  width: 100%;
+  height: 90%;
+  object-fit: cover;
+  border-radius: 15px;
+}
+
+.img-item-1 {
+  grid-column: span 6;
+  position: relative;
+}
+
+.img-item-2 {
+  grid-column: span 6;
+  position: relative;
+}
+
+.img-item-3 {
+  grid-column: span 4;
+  position: relative;
+}
+
+.img-item-4 {
+  grid-column: span 5;
+  position: relative;
+}
+
+.img-item-5 {
+  grid-column: span 3;
+  position: relative;
+}
+
+.img-item-6 {
+  grid-column: span 5;
+  position: relative;
+}
+
+.img-item-7 {
+  grid-column: span 7;
+  position: relative;
+}
+
+.destination-content {
+  width: 60%;
+  margin: 0 auto;
+  text-align: center;
+  margin-top: 100px;
+  margin-bottom: 40px;
+}
+
+.destination-content h1 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+.destination-img > div {
+  margin-bottom: -25px;
+}
+
+.destination-img div h2{
+  color: white;
+  font-weight: 600;
+}
+
+.country-name-1 {
+  position: absolute;
+  left: 39%;
+  top: 40%;
+}
+
+.country-name-2 {
+  position: absolute;
+  left: 38%;
+  top: 42%;
+}
+
+.country-name-3 {
+  position: absolute;
+  left: 35%;
+  top: 39%;
+}
+
+.country-name-4 {
+  position: absolute;
+  left: 27%;
+  top: 40%;
+}
+
+.country-name-5 {
+  position: absolute;
+  left: 28%;
+  top: 40%;
+}
+
+.country-name-6 {
+  position: absolute;
+  left: 33%;
+  top: 40%;
+}
+
+.country-name-7 {
+  position: absolute;
+  left: 39%;
+  top: 38%;
+}
+
+
+/* choose section style starts here */
+
+.choose-container {
+    margin-top: 100px;
+}
+
+.choose-container h1 {
+    font-size: 2rem;
+}
+
+.choose-container > p {
+    width: 50%;
+    margin: auto;
+    margin-top: 25px;
+}
+
+.choose-first {
+    display: flex;
+    gap: 30px;
+    margin-top: 40px;
+}
+
+.hotel-content {
+  border: 1px solid#fdf2e4;
+  background: #fefbf7;
+  border-radius: 15px;
+}
+
+.choose-first div {
+    padding: 30px;
+}
+
+.choose-first img {
+    margin-bottom: 30px;
+}
+
+.choose-first h2 {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+}
+
+.location-content {
+    background: #f4fcfe;
+    border: 1px solid #d1f4fc;
+    border-radius: 15px;
+}
+
+.choose-first img {
+    width: 80px;
+}
+
+.choose-second {
+  background: #fdf6f6;
+  border: 1px solid #fadddd;
+  width: 50%;
+  margin: 0 auto;
+  border-radius: 15px;
+  padding: 30px;
+  margin-top: 35px;
+}
+
+.choose-second img {
+  width: 80px;
+}
+
+.choose-second h2 {
+  font-size: 1.2rem;
+  margin: 30px 0px 20px 0px;
+}
+
+/* discount section style starts here */
+
+.discount-content {
+  position: absolute;
+  width: 50%;
+  background: #ffffffde;
+  top: 50px;
+  right: 50px;
+  bottom: 50px;
+  border-radius: 15px;
+  padding: 40px;
+}
+
+.discount-first-content {
+  position: relative;
+  margin-top: 40px;
+}
+
+.discount-first-content img {
+  width: 100%;
+}
+
+.discount-content span {
+  margin-right: 25px;
+}
+
+.discount-content h2 {
+  margin-top: 20px;
+  font-weight: 600;
+}
+
+
+.discount-content p {
+  line-height: 25px;
+  margin-bottom: 15px;
+  margin-top: 15px;
+}
+
+.discount-content h3 {
+  margin-bottom: 20px;
+}
+
+.discount-second-content {
+  position: relative;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.discount-third-content {
+  position: relative;
+}
+
+.discount-second-content img, .discount-third-content img {
+  width: 100%;
+}
+
+.discount-content p {
+  line-height: 25px;
+  margin-bottom: 15px;
+}
+
+.discount-content h3 {
+  margin-bottom: 20px;
+}
+
+.discount-second-content {
+  position: relative;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.discount-third-content {
+  position: relative;
+}
+
+.discount-second-content img, .discount-third-content img {
+  width: 100%;
+}
+
+.discount-content span i {
+  margin-right: 5px;
+  font-size: 20px;
+}
+
+.discount-second-content > .discount-content {
+  left: 50px;
+}
