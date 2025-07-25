@@ -270,4 +270,43 @@ section.plants {
     padding-top: 0px;
 }
 
+/* plants lover related styles */
+
+.plants-lover-img .trusted-hidden {
+    display: none;
+}
+
+.plants-lover-img .lover-img {
+    /* width: 100%; */
+}
+
+section.plants-lover {
+    flex-direction: column;
+    margin-top: 100px;
+    gap: 40px;
+}
+
+.plants-lover-img .lover-img {
+    width: 100%;
+}
+
+.plants-lover-img {
+    width: 100%;
+}
+
+section.plants-lover {}
+
+.plants-lover-content {
+    width: 100%;
+}
+
+.plants-lover-content h1 {
+    font-size: 2rem;
+    margin-bottom: 15px;
+}
+
+.plants-lover-content ul li {
+    font-size: 1rem;
+}
+
 }
