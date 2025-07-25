@@ -460,4 +460,30 @@ section.plants-lover {
     font-size: 1rem;
 }
 
+/* latest deals related styles */
+
+.card-layout{
+    flex-direction: column;
+}
+
+.card-layout-left img{
+    width: 100%;
+}
+
+.card-layout-right-content h1{
+    font-size: 1.5rem;
+}
+
+.card-layout-right-content a{
+    font-size: 1rem;
+}
+
+.latest-deals-heading p{
+    width: 100%;
+}
+
+section.latest-deals {
+    margin-top: -50px;
+}
+
 }
